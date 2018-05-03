@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Simple blog",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrenoAlberto/BlogSite.git"
+  },
+  "author": "Breno A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrenoAlberto/BlogSite/issues"
+  },
+  "homepage": "https://github.com/BrenoAlberto/BlogSite#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "express-sanitizer": "^1.0.4",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.17"
+  }
+}

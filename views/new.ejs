@@ -1,0 +1,23 @@
+<% include ./inc/header %>
+    <div class="ui main text container segment">
+        <div class="ui huge header">Novo Blog</div>
+        <form class="ui form" action="/blogs" method="POST">
+            <div class="field">
+
+            </div>
+            <div class="field">
+                <label>Titulo</label>
+                <input type="text" name="blog[title]" placeholder="titulo">
+            </div>
+            <div class="field">
+                <label>Imagem</label>
+                <input type="text" name="blog[image]" placeholder="imagem">
+            </div>
+            <div class="field">
+                <label>Conteudo</label>
+                <textarea name="blog[body]"></textarea>
+            </div>
+            <input class="ui big basic button violet" type="submit">
+        </form>
+    </div>
+<% include ./inc/footer %>
